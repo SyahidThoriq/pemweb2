@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $final_score = ($uts * 0.30) + ($uas * 0.35) + ($tugas * 0.35);
 
-    $status = $final_score >= 60 ? "Lulus cuyyy" : "NT dah";
+    $status = $final_score >= 60 ? "Lulusdah" : "Aduhai";
     $status_grade = "I";
 
     switch (true) {
